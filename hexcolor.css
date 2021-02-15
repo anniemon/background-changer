@@ -1,0 +1,20 @@
+body {
+    background-color:#3474ff;
+    text-align: center;
+    margin:0;
+}
+button {
+    border: none;
+    background-color: #636e72;
+    color: aliceblue;
+}
+p {
+    margin: 0;
+}
+.colorname{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
