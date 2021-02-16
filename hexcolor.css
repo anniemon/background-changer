@@ -1,5 +1,4 @@
 body {
-    background-color:#3474ff;
     text-align: center;
     margin:0;
 }
@@ -16,6 +15,7 @@ h1 {
     margin: 10px;
 }
 .colorname{
+    background-color:#3474ff;
     display: flex;
     align-items: center;
     flex-direction: column;
