@@ -7,9 +7,13 @@ button {
     border: none;
     background-color: #636e72;
     color: aliceblue;
-}
-p {
-    margin: 0;
+    padding: 10px 8px;
+    border-radius: 3px;
+    border-style: ridge;
+    border-color:black;
+    }
+h1 {
+    margin: 10px;
 }
 .colorname{
     display: flex;
