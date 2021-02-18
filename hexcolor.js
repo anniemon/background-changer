@@ -9,15 +9,14 @@ function saveColorName(text){
     localStorage.setItem(RANDOMPICK_LS, text);
 }
 
-function pick() {
-    const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];
-    const sol = array[Math.floor(Math.random()*array.length)];
-    return sol; // array에서 randomly pick
-}
 
 function combine(){
-    const picked = `${pick()}${pick()}${pick()}${pick()}${pick()}${pick()}`;
-    return picked;
+    function pick() {
+        const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'c', 'd', 'e', 'f'];
+        return array[Math.floor(Math.random()*array.length)];
+        // array에서 randomly pick
+    }
+    return `${pick()}${pick()}${pick()}${pick()}${pick()}${pick()}`;
 }
 
 //0~9까지의 숫자와 A~F까지의 알파벳이 랜덤하게 구성되어 이루는 6자리 코드
